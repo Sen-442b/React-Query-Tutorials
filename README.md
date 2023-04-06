@@ -15,7 +15,11 @@ This document tracks my progress as I learn React-Query
 
    - ### polling 
   polling is a concept to  get data on a regular intervals which can be useful for applications with real-time data, in react-query a query can be polled by using `refetchInterval:time_in_ms` along with `refetchIntervalInBackground:true|false` (default is `false`)
+
+  - ### fetch on keyboard/mouse events
+    react-query provides `refetch` callback function to fetch data when user interacts with their input devices
   
+
 
 
 
